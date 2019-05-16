@@ -1,9 +1,30 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Agregar lista</ion-title>
-  </ion-toolbar>
+<ion-header no-border>
+    <ion-toolbar color="dark">
+        <ion-buttons slot="start">
+            <ion-back-button color="tertiary" defaultHref="/"></ion-back-button>
+        </ion-buttons>
+        <ion-title>Nombre de la lista</ion-title>
+    </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <h1>Agregar lista</h1>
+<ion-content color="dark">
+    <ion-list color="dark">
+        <ion-item color="dark">
+            <ion-label position="floating">Nuevo item</ion-label>
+            <ion-input type="text"></ion-input>
+        </ion-item>
+    </ion-list>
+
+    <ion-list>
+        <ion-list-header color="dark">
+            <ion-label>tareas por hacer</ion-label>
+        </ion-list-header>
+
+        <ion-item color="dark">
+            <ion-checkbox color="tertiary" slot="start"></ion-checkbox>
+            <ion-label>Recordar estudiar ingles</ion-label>
+        </ion-item>
+
+    </ion-list>
+
 </ion-content>
