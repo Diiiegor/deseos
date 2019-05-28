@@ -15,7 +15,7 @@ const routes: Routes = [
             loadChildren: '../tab1/tab1.module#Tab1PageModule'
           },
           {
-            path: 'agregar',
+            path: 'agregar/:listaid',
             loadChildren: '../agregar/agregar.module#AgregarPageModule'
           }
         ]
