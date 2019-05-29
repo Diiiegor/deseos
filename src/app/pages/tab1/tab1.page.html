@@ -6,6 +6,8 @@
   </ion-toolbar>
 </ion-header>
 
+<app-listas></app-listas>
+
 <ion-content color="dark">
   <ion-list>
     <ion-item color="dark" *ngFor="let lista of deseosService.listas" detail (click)="listaSeleccionada(lista)">
